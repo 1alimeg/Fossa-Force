@@ -57,8 +57,6 @@
     - possible not required since we are using static data (should be implemented though)
 
 
-
-
 ### Hardware
 - Wearable IoT device (capabilities)
     - pulse
@@ -69,14 +67,6 @@
         - bluetooth (proximity to known devices)
         - wife/cellular (location approximation)
         - GPS (precise location)
-
-
-
-
-
-
-
-
 
 
 
@@ -121,8 +111,6 @@
     - allows each true case to be logged for future reference
     - linked in with predictive module
 
-
-
 - filtering of MAP and LIST VIEW
     - list all registered users
     - based on groups
@@ -132,6 +120,16 @@
         - either in list view or on the map
     - predictive (possible new alerts based on personal history)
     
+
+- Administrator function
+    - need to think what sort of specialized setting pane and fucntions would need to be here
+
+
+- Dashboards
+    - Notification (if through the ML, and new problem area has been evaluated... alerts will pop up here)
+    - histogram of emergency alerts over time
+    - top users with alerts
+    - other statistics that could be useful
 
 ## User (dashboard)
 - ability to register for service (user side)
