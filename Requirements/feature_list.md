@@ -166,82 +166,84 @@
 
 # Functional Requirements
 
+🔴🟠🟡🟢🔵🟣
+
 ## Stress Score
     - use ML to process or specific stress scenarios as outlined below
     - have to figure out specific timeline for events as opposed to snapshot sort of thinking with these scenarios
 
 ### Studying
-<p color="green">pulse rate</p>
-<p color="green">body temp</p>
-<p color="yellow">priximity to unfamiliar objects</p> (other people in the library)
-<p color="green">ambient noise</p> (quiet speaking in library)
-<p color="green">stress indicator</p> (low stress levels)
-<p color="green">user behaviour</p> (sedentary)
-<p color="green">movement pattern</p> (normal)
+🟢Pulse Rate - 
+🟢body temp - 
+🟡priximity to unfamiliar objects -  (other people in the library)
+🟢ambient noise -  (quiet speaking in library)
+🟢stress indicator -  (low stress levels)
+🟢user behaviour -  (sedentary)
+🟢movement pattern -  (normal)
 
 
 ### Walking to Class/home
-<p color="yellow">pulse rate</p> (slightly elevated from walking)
-<p color="green">body temp</p>
-<p color="green">priximity to unfamiliar objects</p> (not many people you are near when walking)
-<p color="green">ambient noise</p> variable but generally quiet
-<p color="green">stress indicator</p> (low stress levels)
-<p color="yellow">user behaviour</p> (active)
-<p color="green">movement pattern</p> (normal)
+🟡pulse rate -  (slightly elevated from walking)
+🟢body temp - 
+🟢proximity to unfamiliar objects -  (not many people you are near when walking)
+🟢ambient noise -  variable but generally quiet
+🟢stress indicator -  (low stress levels)
+🟡user behaviour -  (active)
+🟢movement pattern -  (normal)
 
 ### Group Study
-<p color="green">pulse rate</p> (sendentary with small increases due to joking around with friends)
-<p color="green">body temp</p>
-<p color="green">priximity to unfamiliar objects</p> (more familiar devices around )
-<p color="yellow">ambient noise</p> (variable quiet speaking and can include loud joking around)
-<p color="green">stress indicator</p> (low stress levels)
-<p color="green">user behaviour</p> (sedentary)
-<p color="green">movement pattern</p> (normal)
+🟢pulse rate -  (sendentary with small increases due to joking around with friends)
+🟢body temp - 
+🟢proximity to unfamiliar objects -  (more familiar devices around )
+🟡ambient noise -  (variable quiet speaking and can include loud joking around)
+🟢stress indicator -  (low stress levels)
+🟢user behaviour -  (sedentary)
+🟢movement pattern -  (normal)
 
 ### Physical Activity
-<p color="red">pulse rate</p>   (variable from yellow to red due to level of activity)
-<p color="yellow">body temp</p>  (variable yellow to red due to level of activity)
-<p color="yellow">priximity to unfamiliar objects</p> (friends and strangers at the gym)
-<p color="yellow">ambient noise</p> (general higher level of noise in gym environment)
-<p color="yellow">stress indicator</p> (physical stress)
-<p color="yellow">user behaviour</p> (active)
-<p color="green">movement pattern</p> (normal for physical activity)
+🔴pulse rate -    (variable from yellow to red due to level of activity)
+🟡body temp -   (variable yellow to red due to level of activity)
+🟡proximity to unfamilar objects -  (friends and strangers at the gym)
+🟡ambient noise -  (general higher level of noise in gym environment)
+🟡stress indicator -  (physical stress)
+🟡user behaviour -  (active)
+🟢movement pattern -  (normal for physical activity)
 
 ### Studying
-<p color="green">pulse rate</p>
-<p color="green">body temp</p>
-<p color="yellow">priximity to unfamiliar objects</p> (other people in the library)
-<p color="green">ambient noise</p> (quiet speaking in library)
-<p color="green">stress indicator</p> (low stress levels)
-<p color="green">user behaviour</p> (sedentary)
-<p color="green">movement pattern</p> (normal)
+🟢pulse rate - 
+🟢body temp -
+🟡proximity to unfamiliar objects -  (other people in the library)
+🟢ambient noise -  (quiet speaking in library)
+🟢stress indicator - (low stress levels)
+🟢user behaviour -  (sedentary)
+🟢movement pattern -  (normal)
 
 ### Exam Stres
-<p color="yellow">pulse rate</p> (high and possibly irregular pulse)
-<p color="green">body temp</p>  (increased though not high due to mental stress)
-<p color="yellow">priximity to unfamiliar objects</p> (Possibly near class mates, and other students)
-<p color="green">ambient noise</p> (generally quiet)
-<p color="red">stress indicator</p> (high stress)
-<p color="green">user behaviour</p> (sedentary)
-<p color="green">movement pattern</p> (normal)
+🟡pulse rate -  (high and possibly irregular pulse)
+🟢body temp -   (increased though not high due to mental stress)
+🟡proximity to unfamiliar objects - (Possibly near class mates, and other students)
+🟢ambient noise -  (generally quiet)
+🔴stress indicator -  (high stress)
+🟢user behaviour -  (sedentary)
+🟢movement pattern -  (normal)
 
 ### Active Assault Scenario
-<p color="red">pulse rate</p>   (high due to fear or activity)
-<p color="green">body temp</p>  (high due to )
-<p color="red">priximity to unfamiliar objects</p> (single or multiple unfamiliar objects... though this has some flexibility due to the statistics regarding people you know harming or assaulting you... can be further discuessed)
-<p color="red">ambient noise</p> (possible yelling followed by acute drop off... much more silent)
-<p color="red">stress indicator</p> (high stress indicated)
-<p color="red">user behaviour</p> (stressed)
-<p color="red">movement pattern</p> (irregular)
+🔴pulse rate -    (high due to fear or activity)
+🟢body temp -   (high due to stress or at least quickly ramping up)
+🔴proximity to unfamiliar objects -  (single or multiple unfamiliar objects... though this has some flexibility due to the statistics regarding people you know harming or assaulting you... can be further discuessed)
+🔴ambient noise -  (possible yelling followed by acute drop off... much more silent)
+🔴stress indicator -  (high stress indicated)
+🔴user behaviour -  (stressed)
+🔴movement pattern -  (irregular)
 
 ### Drunk (like bloody wasted and unconscious)
-<p color="blue">pulse rate</p>  (lower heart rate than regular)
-<p color="blue">body temp</p>  (decreased body temperature due to vasodilation)
-<p color="green">priximity to unfamiliar objects</p> (no one around)
-<p color="green">ambient noise</p> (quiet)
-<p color="yellow">stress indicator</p> (unconscious so I don't know how the stress indicator level is evaluated)
-<p color="green">user behaviour</p> (sedentary)
-<p color="yellow">movement pattern</p> (irregular previous to unconscious state)
+🔵pulse rate -   (lower heart rate than regular)
+🔵body temp -   (decreased body temperature due to vasodilation)
+🟢proximity to unfamiliar object -  (no one around)
+🟢ambient noise -  (quiet)
+🟡stress indicator -  (unconscious so I don't know how the stress indicator level is evaluated)
+🟢user behaviour -  (sedentary)
+🟡movement patterns -  (irregular previous to unconscious state)
 
 
 
