@@ -173,77 +173,77 @@
     - have to figure out specific timeline for events as opposed to snapshot sort of thinking with these scenarios
 
 ### Studying
-🟢Pulse Rate - 
-🟢body temp - 
-🟡priximity to unfamiliar objects -  (other people in the library)
-🟢ambient noise -  (quiet speaking in library)
-🟢stress indicator -  (low stress levels)
-🟢user behaviour -  (sedentary)
-🟢movement pattern -  (normal)
+- 🟢Pulse Rate - 
+- 🟢body temp - 
+- 🟡priximity to unfamiliar objects -  (other people in the library)
+- 🟢ambient noise -  (quiet speaking in library)
+- 🟢stress indicator -  (low stress levels)
+- 🟢user behaviour -  (sedentary)
+- 🟢movement pattern -  (normal)
 
 
 ### Walking to Class/home
-🟡pulse rate -  (slightly elevated from walking)
-🟢body temp - 
-🟢proximity to unfamiliar objects -  (not many people you are near when walking)
-🟢ambient noise -  variable but generally quiet
-🟢stress indicator -  (low stress levels)
-🟡user behaviour -  (active)
-🟢movement pattern -  (normal)
+- 🟡pulse rate -  (slightly elevated from walking)
+- 🟢body temp - 
+- 🟢proximity to unfamiliar objects -  (not many people you are near when walking)
+- 🟢ambient noise -  variable but generally quiet
+- 🟢stress indicator -  (low stress levels)
+- 🟡user behaviour -  (active)
+- 🟢movement pattern -  (normal)
 
 ### Group Study
-🟢pulse rate -  (sendentary with small increases due to joking around with friends)
-🟢body temp - 
-🟢proximity to unfamiliar objects -  (more familiar devices around )
-🟡ambient noise -  (variable quiet speaking and can include loud joking around)
-🟢stress indicator -  (low stress levels)
-🟢user behaviour -  (sedentary)
-🟢movement pattern -  (normal)
+- 🟢pulse rate -  (sendentary with small increases due to joking around with friends)
+- 🟢body temp - 
+- 🟢proximity to unfamiliar objects -  (more familiar devices around )
+- 🟡ambient noise -  (variable quiet speaking and can include loud joking around)
+- 🟢stress indicator -  (low stress levels)
+- 🟢user behaviour -  (sedentary)
+- 🟢movement pattern -  (normal)
 
 ### Physical Activity
-🔴pulse rate -    (variable from yellow to red due to level of activity)
-🟡body temp -   (variable yellow to red due to level of activity)
-🟡proximity to unfamilar objects -  (friends and strangers at the gym)
-🟡ambient noise -  (general higher level of noise in gym environment)
-🟡stress indicator -  (physical stress)
-🟡user behaviour -  (active)
-🟢movement pattern -  (normal for physical activity)
+- 🔴pulse rate -    (variable from yellow to red due to level of activity)
+- 🟡body temp -   (variable yellow to red due to level of activity)
+- 🟡proximity to unfamilar objects -  (friends and strangers at the gym)
+- 🟡ambient noise -  (general higher level of noise in gym environment)
+- 🟡stress indicator -  (physical stress)
+- 🟡user behaviour -  (active)
+- 🟢movement pattern -  (normal for physical activity)
 
 ### Studying
-🟢pulse rate - 
-🟢body temp -
-🟡proximity to unfamiliar objects -  (other people in the library)
-🟢ambient noise -  (quiet speaking in library)
-🟢stress indicator - (low stress levels)
-🟢user behaviour -  (sedentary)
-🟢movement pattern -  (normal)
+- 🟢pulse rate - 
+- 🟢body temp -
+- 🟡proximity to unfamiliar objects -  (other people in the library)
+- 🟢ambient noise -  (quiet speaking in library)
+- 🟢stress indicator - (low stress levels)
+- 🟢user behaviour -  (sedentary)
+- 🟢movement pattern -  (normal)
 
 ### Exam Stres
-🟡pulse rate -  (high and possibly irregular pulse)
-🟢body temp -   (increased though not high due to mental stress)
-🟡proximity to unfamiliar objects - (Possibly near class mates, and other students)
-🟢ambient noise -  (generally quiet)
-🔴stress indicator -  (high stress)
-🟢user behaviour -  (sedentary)
-🟢movement pattern -  (normal)
+- 🟡pulse rate -  (high and possibly irregular pulse)
+- 🟢body temp -   (increased though not high due to mental stress)
+- 🟡proximity to unfamiliar objects - (Possibly near class mates, and other students)
+- 🟢ambient noise -  (generally quiet)
+- 🔴stress indicator -  (high stress)
+- 🟢user behaviour -  (sedentary)
+- 🟢movement pattern -  (normal)
 
 ### Active Assault Scenario
-🔴pulse rate -    (high due to fear or activity)
-🟢body temp -   (high due to stress or at least quickly ramping up)
-🔴proximity to unfamiliar objects -  (single or multiple unfamiliar objects... though this has some flexibility due to the statistics regarding people you know harming or assaulting you... can be further discuessed)
-🔴ambient noise -  (possible yelling followed by acute drop off... much more silent)
-🔴stress indicator -  (high stress indicated)
-🔴user behaviour -  (stressed)
-🔴movement pattern -  (irregular)
+- 🔴pulse rate -    (high due to fear or activity)
+- 🟢body temp -   (high due to stress or at least quickly ramping up)
+- 🔴proximity to unfamiliar objects -  (single or multiple unfamiliar objects... though this has some flexibility due to the statistics regarding people you know harming or assaulting you... can be further discuessed)
+- 🔴ambient noise -  (possible yelling followed by acute drop off... much more silent)
+- 🔴stress indicator -  (high stress indicated)
+- 🔴user behaviour -  (stressed)
+- 🔴movement pattern -  (irregular)
 
 ### Drunk (like bloody wasted and unconscious)
-🔵pulse rate -   (lower heart rate than regular)
-🔵body temp -   (decreased body temperature due to vasodilation)
-🟢proximity to unfamiliar object -  (no one around)
-🟢ambient noise -  (quiet)
-🟡stress indicator -  (unconscious so I don't know how the stress indicator level is evaluated)
-🟢user behaviour -  (sedentary)
-🟡movement patterns -  (irregular previous to unconscious state)
+- 🔵pulse rate -   (lower heart rate than regular)
+- 🔵body temp -   (decreased body temperature due to vasodilation)
+- 🟢proximity to unfamiliar object -  (no one around)
+- 🟢ambient noise -  (quiet)
+- 🟡stress indicator -  (unconscious so I don't know how the stress indicator level is evaluated)
+- 🟢user behaviour -  (sedentary)
+- 🟡movement patterns -  (irregular previous to unconscious state)
 
 
 
