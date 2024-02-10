@@ -86,10 +86,52 @@
 
 ## Admin
 - register for admin services
-- view list of all registered users
+- LIST VIEW
+    - user icon
+    - user name
+    - Any new alerts
+    - current stress score
+    - accessible through which messaging channel (sms, facebook, whatsapp)
+    - other quick access relevant information
+    - filter function for this view
+- MAP VIEW
+    - heat map "danger zone" based off of stress analytics
+    - user icon with location on map based off of filtered mode
+    - filter selector at the top righ
+
+- MESSAGING PORTAL
+    - list view of all currently active "situations"
+    - individual cases should upon up to a messaging environment
+    - possible inclusion of contact EMS services
+    - messaging between admin and "in danger" user is displayed inline with current status and steps taken for help
+        - friend contacted
+        - EMS services called
+        - false alarm
+
+    - the information from the steps taken in the messaging portal could be used for future prediction and analysis
+
+
+- verify and accept new registered users into database
 - messaging portal with current users in dangerous situation
     - current state of user
-    - 
+
+
+
+- Case report /export function
+    - allows each true case to be logged for future reference
+    - linked in with predictive module
+
+
+
+- filtering of MAP and LIST VIEW
+    - list all registered users
+    - based on groups
+    - based on stress status (list from most to least stressed with alert at top)
+        - map view can be selected only selected stress status
+    - Only show danger alerts
+        - either in list view or on the map
+    - predictive (possible new alerts based on personal history)
+    
 
 ## User (dashboard)
 - ability to register for service (user side)
@@ -137,6 +179,17 @@
 - automated message, (Are you in danger)
 
 
-- alert to cl
+- alert to close friends (would require constant location tracking)
+    - mass alert to all friends (would you like to share location)
+    - if location is actively being shared, the closest friend can be notified that their friend is in distress.
+
+
+## Predictive Alert System (where administrator can see people who may be in danger or approaching a dangerous situation)
+- alter the situation before something happens
+- based off of "hot spot zones"
+- based off of past user behaviour
+- events that could alter user safety
+    - calendar events could be implemented to put this into the predictive system.
+- 
 
 
