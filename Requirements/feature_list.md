@@ -150,11 +150,17 @@
 
 # Functional Requirements
 
-> ### Persona Signs up for administrator previledges
+🟢 ADMINISTRATOR
+🟠 GENERAL USER
+
+
+
+> ### 🟢Persona Signs up for administrator previledges
 >
 >- persona navigates to the Fossa force registration page
 >- webserver responds to request for registration page
 >- persona selects if they would like to sign up as user or administrator
+>   - administrators must input affiliated institution information
 >- persona enters requested information for sign up
 >   - data entered properly, user taken to next step
 >   - data entered incorrectly, error message (user prompted to fix errors)
@@ -163,6 +169,52 @@
 >   - if CONFLICT error message sent back (user already exists) 
 >   - if NO CONFLICT data entered into database
 >       -  new administrator taken to home page of portal
+
+> ### 🟢Administrator logs into Foosa Force application
+> 
+>- persona navigates to the Foosa force login page
+>- webserver responds to request for login page
+>- persona enters username and password
+>   - both fields entered properly, user taken to next step
+>   - fields not entered correctly (warning message displayed asking user to correctly fill out login form)
+>- fully entered data fields sent to webserver
+>- database queried for corresponding username and password combination
+>   - username and password DO NOT match (error message sent back to the user)
+>   - username and password combination MATCH
+>       - either general user or administrator status determined by account information
+>- user taken to administrator portal based off of administrator priveledges as determined by previous step
+
+> ### 🟠Persona signs up for general user priviledges
+>
+>- persona navigates to the Fossa force registration page
+>- webserver responds to request for registration page
+>- persona selects if they would like to sign up as user or administrator
+>   - administrators must input affiliated institution information
+>- persona enters requested information for sign up
+>   - data entered properly, user taken to next step
+>   - data entered incorrectly, error message (user prompted to fix errors)
+>- information submitted to webserver
+>- database queried for any pervious user with administrator priveledges with the same information
+>   - if CONFLICT error message sent back (user already exists) 
+>   - if NO CONFLICT data entered into database
+>       -  new user taken to their home screen
+>- message on user home screen stating their account is awaiting review
+
+> ### 🟢Administrator views and approves/denies add request for new user sign-up
+>
+>- notification system within administrator portal alerts administrator to new user registered with Foosa Force application
+>- administrator either navigates to dedicated registration/approval module or responds to notification which will take him there automatically
+>- enter into registration/approval module
+>- database is queried for all pending approval status users who are not with admin priveledges that are affiliated with the same institution, and populates screen with these users
+>- each enter will have a button beside their name with either approve or reject
+>- APPROVED the users information will be updated within the database
+>   - email or other notification letting the user know of their APPROVED application status.
+>   - notification module on user screen updates status to APPROVED and unlocks all setting for that user
+>- DENIED the users information will be updated within the database
+>   - email or other notification letting the user know of their DENIED application status.
+>   - notification module on usre screen updates status to DENIED locks account down or other action to be taken.
+
+>
 
 
 
@@ -297,6 +349,7 @@
 ### Administrator (extends user)
 
 - Attributes
+    - institutionName
     - [] Student (list of all students who are being tracked by the service)
 
 
