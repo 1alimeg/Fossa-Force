@@ -214,7 +214,60 @@
 >   - email or other notification letting the user know of their DENIED application status.
 >   - notification module on usre screen updates status to DENIED locks account down or other action to be taken.
 
+> ### 🟢administrator views list of all approved students that they are monitoring
 >
+>- administrator previously logged in
+>- user select to view "Main" portal from website sidebar
+>- website sends request to database to query for all approved students affiliated with that institution or Administrator
+>- list and relevent data as stipulated by the "Main" view is returned to webserver
+>- website loaded and populates view with list of all students returned by the database
+>- relevant data is displayed accordingly for each student
+>- each student in this list can be selected which will open up a more detailed view
+>   - particular student will be queried in the database with all data for that student being used for populate a dashboard for that particular student.
+
+
+> ### 🟢administrator filters list of students based on predefined filters
+>
+>- administrator previously logged in
+>- administrator previously selected to view "Main" list of students
+>- administrator selects drop down bar to filter list of students
+>- list of predetermined filters displayed to the administrator
+>- each filters logic has been determined programatically
+>- a filter is selected, and the predefined query is sent to the database
+>- query results are sent to the webserver to populate the administrators view with
+
+> ### 🟠User adds new friend to friend group
+>
+>- user previously logs in
+>- user selects friend list from sidebar button
+>- user selects "add" button within the friend view
+>- search bar appears in view
+>- user enters in username of friend
+>- database queried for that particular username
+>- FOUND - small icon displaying that user with an add button beside their name
+>   - user responds by clicking add button
+>   - users affiliated with one another in the database or added to their respsective friend groups within the program.
+>- NOT FOUND - message returned to the user stating "No such username found"
+
+> ### 🟠User adds new friend to friend group
+>
+>- user previously logs in
+>- user selects friend list from sidebar button
+>- list of current friends queried from database and populated friend list
+>- icon for "..." is presented at the end of each other
+>- user selected this button and is presented with a menu with multiple option
+>   - one of these options is to remove friend
+>- user selects remove friend button from this list
+>- prompt is displayed to the user asking "are you sure you would like to remove this friend from your friend list?"
+>- OK is selected
+>   - prompt disappears
+>   - the friend will become unaffiliated with this user and the database will be updated
+>- CANCEL is selected
+>   - the prompt disappears
+>   - no update made to the database and the friend remains in that users group.
+
+
+
 
 
 
@@ -344,7 +397,6 @@
     - date of birth
 - Setters/Getters
 - Constructors
-- 
 
 ### Administrator (extends user)
 
@@ -366,5 +418,8 @@
     - WhatsApp
 
 
+
+
+### if everything is to be saved within the database, will each of the users be saved inside of the database or will they be within the program itself.  Or is the program populated from the database upon start up, or are they continually queried from the database to populate each and every view.
 
 
