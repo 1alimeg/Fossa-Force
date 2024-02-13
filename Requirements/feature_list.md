@@ -72,80 +72,51 @@
 
 # User Requirement List
 
-
-
 ## Admin
-- register for admin services
-- LIST VIEW
-    - user icon
-    - user name
-    - Any new alerts
-    - current stress score
-    - accessible through which messaging channel (sms, facebook, whatsapp)
-    - other quick access relevant information
-    - filter function for this view
-- MAP VIEW
-    - heat map "danger zone" based off of stress analytics
-    - user icon with location on map based off of filtered mode
-    - filter selector at the top righ
 
-- MESSAGING PORTAL
+- register for admin services
+- login to administrative services
+- verify and accept new registered users into the database
+- HOME VIEW
+    - view list of all female STEM students registered with administrator and current stress levels, and other relevant information.
+    - filter these student by particular criteria
+        - all user
+        - affiliated friend groups
+        - ascending or descending stress level
+        - only show distressed students
+- Messaging View
     - list view of all currently active "situations"
-    - individual cases should upon up to a messaging environment
     - possible inclusion of contact EMS services
     - messaging between admin and "in danger" user is displayed inline with current status and steps taken for help
         - friend contacted
         - EMS services called
         - false alarm
+    - all distress alerts and their subsequent messaging threads are saved into a log
 
-    - the information from the steps taken in the messaging portal could be used for future prediction and analysis
+- Dashboard View
+    - list of all alert events
+    - histogram of alert events against time
+    - other viosualizations of data to be considered
+    - predictive distress area on MAP based off of previous alerts
+    - also associated with events calendar
 
+## User
 
-- verify and accept new registered users into database
-- messaging portal with current users in dangerous situation
-    - current state of user
-
-
-
-- Case report /export function
-    - allows each true case to be logged for future reference
-    - linked in with predictive module
-
-- filtering of MAP and LIST VIEW
-    - list all registered users
-    - based on groups
-    - based on stress status (list from most to least stressed with alert at top)
-        - map view can be selected only selected stress status
-    - Only show danger alerts
-        - either in list view or on the map
-    - predictive (possible new alerts based on personal history)
-    
-
-- Administrator function
-    - need to think what sort of specialized setting pane and fucntions would need to be here
-
-
-- Dashboards
-    - Notification (if through the ML, and new problem area has been evaluated... alerts will pop up here)
-    - histogram of emergency alerts over time
-    - top users with alerts
-    - other statistics that could be useful
-
-## User (dashboard)
 - ability to register for service (user side)
 - Login in to user homepage
-- 
-- modify account information and account settings
-    - automatically share location information upon alert
-    - request access to location upon alert  (opt in for auto location sharing)  required for quick response through system   *** the user won't have time to really message  back and forth with emergency services or researchers in the event of an emergency***
-    - set up/modify safe zone
-    - send location data if friend has an alert (are you within reach)
+- modify account information and account settings through profile page
+- add/remove other registered users from friend group
+- see list of friends and relevant stats
+- see friends who are in distress
 
-- add/ removefriend to personal friend-group or watch-list
-- see current stress score for yourself
-- see historical alerts for yourself
-- 
-- 
+
+
+- PERSONAL DASHBOARD
+    - see historical alerts for yourself
+    - current stress levels
+    - other dashboard visualization elements for personal use
+    - set up safe zone where stress levels won't be triggered
+    - see friends 
 
 
 
@@ -160,9 +131,41 @@
 
 
 
+# User stories based off of user requirements
+
+
+### Persona Signs up for administrator previledges
+### administrator logs into Foosa Force application
+### administrator views and approves / incoming registered users
+### administrator views list of all approved students that they are monitoring
+### administrator filters list of students based on predefined filters
+### System alerts administrator to distress situation, and administrator responds to alert
+### administrator contacts student in distress through messaging center
+### 
+
+
+
+
 
 
 # Functional Requirements
+
+> ### Persona Signs up for administrator previledges
+>
+>- persona navigates to the Fossa force registration page
+>- webserver responds to request for registration page
+>- persona selects if they would like to sign up as user or administrator
+>- persona enters requested information for sign up
+>   - data entered properly, user taken to next step
+>   - data entered incorrectly, error message (user prompted to fix errors)
+>- information submitted to webserver
+>- database queried for any pervious user with administrator priveledges with the same information
+>   - if CONFLICT error message sent back (user already exists) 
+>   - if NO CONFLICT data entered into database
+>       -  new administrator taken to home page of portal
+
+
+
 
 🔴🟠🟡🟢🔵🟣
 
