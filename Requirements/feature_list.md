@@ -323,6 +323,22 @@
 >- both the distressed user and the friend who is responding to the distress will be added into the admin message thread for the administrator to monitor and interact with.
 >- only an administrator should be able to close and active distress situtation
 
+> ### 🟢interact with student through messaging center in current
+>
+>- the administrator has previously logged into the system
+>- a user has already had a distress event that was noticed
+>- the system alerts the administrator to the distress event
+>- new entry is made in the messaging system consisting of a conversation with that particular user
+>- Twilio message is sent to the user in the background
+>- messaging portal shows that this message has been sent
+>- administrator awaits responce by the distressed user
+>- once responce has been recived, the responce is added into the chat interface
+>- other friends are contacted in the background and friend with closest location is asked if they can check on the distressed user
+>- Once a friend responds and accepts the request by the user to help the distressed user, they also will be added into the chat for collaboration purposes
+>- due to the SMS communication between the administrator and each of the users... the administrator will have access to both users involved but each user will only be able to interact with the administrator ( or with each other through their own channels)
+>- once the distress event has been resolved the log of all communication will be saved for analysis
+>- the location of the initating distress event will be added into the database for the administrator analysis screen
+
 
 
 
