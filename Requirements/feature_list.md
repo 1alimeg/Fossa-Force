@@ -133,14 +133,32 @@
 
 # User stories based off of user requirements
 
+## Administrator
+### ([x])Persona Signs up for administrator previledges
+### ([x])administrator logs into Foosa Force application
+### ([x])administrator views and approves / incoming registered users
+### ([x])administrator views list of all approved students that they are monitoring
+### ([x])administrator filters list of students based on predefined filters
+### ([x])administrator responds to initial alert from student in distress
+### ([x])administrator views analysis dashboard
+### ([])interact with student through messaging center in current 
 
-### Persona Signs up for administrator previledges
-### administrator logs into Foosa Force application
-### administrator views and approves / incoming registered users
-### administrator views list of all approved students that they are monitoring
-### administrator filters list of students based on predefined filters
-### System alerts administrator to distress situation, and administrator responds to alert
-### administrator contacts student in distress through messaging center
+
+
+
+## General User
+### ([x])Persona signs up for general user priveledges
+### ([x])user add new friend to friend group
+### ([x])user removes friend from friend group
+### ([x])respond to other alerts from friend
+### ([])interact with the system in case of theiry own alert
+### ([])view their own analysis dashboard
+
+
+
+
+
+### ([])administrator contacts student in distress through messaging center
 ### 
 
 
@@ -276,6 +294,7 @@
 >- webpage will be populated with the latest up to date information for the administrator to view
 
 
+
 > ### 🟢administrator responds to initial alert from student in distress
 >
 >- administrator previously logged in
@@ -288,7 +307,21 @@
 >   - live data from the IoT device is visible to the administrator
 >- administrator is able to see conversation between user in distress and himself and see if friends were alerted to this users state
 
-
+> ### 🟠Respond to alert in the even of friend in distress
+>
+>- case will be written for one particular user responding to a distress alert from another user whom they have previously added into their friend group
+>- user does not have to be logged into the system to respond to distress situation from a friend
+>- server side application senses a friend in distress
+>- alert sent to administrator to start communication process
+>- Twilio system triggered to send alert to the user who is in distress
+>- if distress alert is confirmed or message automatically times out, location data of user in distress is sent back to foosa program
+>- all associated friends are immediately contacted using twilio system
+>- location data of all associated friends are requested
+>- users have an option to share
+>- all locations from users who shared location information is calculated to find the closest friend
+>- if this location falls within a viable responce distance the location of the student in distress will be shared with the friend most easily able to respond
+>- both the distressed user and the friend who is responding to the distress will be added into the admin message thread for the administrator to monitor and interact with.
+>- only an administrator should be able to close and active distress situtation
 
 
 
