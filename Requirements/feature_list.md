@@ -249,7 +249,7 @@
 >   - users affiliated with one another in the database or added to their respsective friend groups within the program.
 >- NOT FOUND - message returned to the user stating "No such username found"
 
-> ### 🟠User adds new friend to friend group
+> ### 🟠User removes friend from friend group
 >
 >- user previously logs in
 >- user selects friend list from sidebar button
@@ -265,6 +265,28 @@
 >- CANCEL is selected
 >   - the prompt disappears
 >   - no update made to the database and the friend remains in that users group.
+
+> ### 🟢administrator views dashboard view (more information on dashboard view to be discussed)
+>
+>- administrator previously logged in
+>- administrator selects dashboard view from the sidebar menu
+>- logic of each view will be pre-determined progrematically in application
+>- latest data will be queried for in the database
+>- graphs build uisng relevent frameworks
+>- webpage will be populated with the latest up to date information for the administrator to view
+
+
+> ### 🟢administrator responds to initial alert from student in distress
+>
+>- administrator previously logged in
+>- administrator can be in any portion of the website
+>- incoming alert displays in the center of the screen stating that student stress level show sign of distress
+>   - in the background twilio sends notification to the users phone asking if they can
+>   - new event logged and this users chat is added to the messaging center
+>- DISMISS - the administrator dismisses the alert... and the user is added to the messaging center in the background
+>- CHECK - the administrator respods to the alert and is taken directly the messaging portal
+>   - live data from the IoT device is visible to the administrator
+>- administrator is able to see conversation between user in distress and himself and see if friends were alerted to this users state
 
 
 
