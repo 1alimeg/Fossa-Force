@@ -141,7 +141,7 @@
 ### ([x])administrator filters list of students based on predefined filters
 ### ([x])administrator responds to initial alert from student in distress
 ### ([x])administrator views analysis dashboard
-### ([])interact with student through messaging center in current 
+### ([x])interact with student through messaging center in current 
 
 
 
@@ -151,15 +151,12 @@
 ### ([x])user add new friend to friend group
 ### ([x])user removes friend from friend group
 ### ([x])respond to other alerts from friend
-### ([])interact with the system in case of theiry own alert
+### ([x])interact with the system in case of theiry own alert
 ### ([])view their own analysis dashboard
 
 
 
 
-
-### ([])administrator contacts student in distress through messaging center
-### 
 
 
 
@@ -323,7 +320,7 @@
 >- both the distressed user and the friend who is responding to the distress will be added into the admin message thread for the administrator to monitor and interact with.
 >- only an administrator should be able to close and active distress situtation
 
-> ### 🟢interact with student through messaging center in current
+> ### 🟢interact with student through messaging center in current distress
 >
 >- the administrator has previously logged into the system
 >- a user has already had a distress event that was noticed
@@ -339,7 +336,26 @@
 >- once the distress event has been resolved the log of all communication will be saved for analysis
 >- the location of the initating distress event will be added into the database for the administrator analysis screen
 
+> ### 🟠General User interacts with system in the case of their own distress alert
+>
+>- this interaction will be limited to the user in distress
+>- The system as it processes the live IoT data will calculate a stress score above a certain threshold
+>- once this threshold has been passed, the system through the twilio API will send out a message to the user
+>- The user will receive a message asking if they are safe
+>- if they respond the appropriate safe responce, the alert will be canceled
+>- if they message that they are in distress, or do not respond within an alotted time period, the system will automatically notify the administrator
+>- this usercase flows directly into the following
+>   - user responding to a friend in distress
+>   - administrator using messaging portal to interact with user in distress
 
+> ### 🟠administrator views dashboard view (more information on dashboard view to be discussed)
+>
+>- general user previously logged in
+>- general user selects dashboard view from the sidebar menu
+>- logic of each view will be pre-determined progrematically in application
+>- latest data will be queried for in the database
+>- graphs build uisng relevent frameworks
+>- webpage will be populated with the latest up to date information for the user to view
 
 
 
