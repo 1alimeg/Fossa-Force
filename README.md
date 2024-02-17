@@ -3,8 +3,8 @@
 # User stories based off of user requirements
 
 ## Administrator
-### ([x])Persona Signs up for administrator previledges
-### ([x])administrator logs into Foosa Force application
+### ([x]) Persona Signs up for administrator previledges
+### ([x]) administrator logs into Foosa Force application
 ### ([x])administrator views and approves / incoming registered users
 ### ([x])administrator views list of all approved students that they are monitoring
 ### ([x])administrator filters list of students based on predefined filters
