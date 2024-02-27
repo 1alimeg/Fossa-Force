@@ -152,7 +152,7 @@
 ### ([x])user removes friend from friend group
 ### ([x])respond to other alerts from friend
 ### ([x])interact with the system in case of theiry own alert
-### ([])view their own analysis dashboard
+### ([x])view their own analysis dashboard
 
 
 
