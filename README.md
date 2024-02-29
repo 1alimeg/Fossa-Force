@@ -1,6 +1,10 @@
 # Requirements Engineering
 
-# User stories based off of user requirements
+# This READ ME contains information from our requirements engineering
+
+
+
+# User stories based off of user requirements:
 
 ## Administrator
 ### ([x]) Persona Signs up for administrator previledges
