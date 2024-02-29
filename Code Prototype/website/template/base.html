@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--this is where you can import bootstrap to make the different menu styling a bit easier as opposed to just doing the CSS on your own-->
+
+        <title>{% block title %}HOME{% endblock%}</title>
+        <!--this is the syntax for the jinja templating language you can access the block by their names, and can actually modify their content -->
+    </head>
+
+    <body>
+        
+
+        <nav class=" navbar">
+            <button class="nav-button" type="button">
+                <div>
+                    <a class="nav-link" id="login" href="/login">Login</a>
+                    <a class="nav-link" id="logout" href="/login">Login</a>
+                    <a class="nav-link" id="sign-up" href="/sign-up">Login</a>
+
+                </div>
+
+
+            </button>
+        </nav>
+
+
+<!-- javascript script links should be placed here and remember that any .js file should be placed within the static folder-->
+    </body>
+
+
+</html>
