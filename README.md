@@ -1,6 +1,6 @@
 # Requirements Engineering
 
-# This READ ME contains information from our requirements engineering
+## This READ ME contains information from our 'requirements engineering' progress
 
 
 
